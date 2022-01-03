@@ -1,37 +1,174 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/samWfelice/samwfelice.tribute-webpage.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tribute Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Yanone+Kaffeesatz:wght@200;300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px auto;
+            padding: 0px;
+        }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        #img-div {
+            background-color: rgb(227, 231, 255);
+        }
 
-### Markdown
+        #image {
+            display: block;
+            max-width: 50%;
+            height: auto;
+            margin: 0px auto;
+            /* padding: 15px 15px; */
+            background-color: rgb(193, 219, 253);
+        }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        #title {
+            margin: 0 auto;
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            background-color: #92bef0;
+            color: #061832;
+            position: sticky;
+            top: 1px;
+        }
 
-```markdown
-Syntax highlighted code block
+        blockquote {
+            text-align: center;
+            font-family: cursive;
+            background-color: #92bef0;
+            padding: 12px 15px;
+        }
 
-# Header 1
-## Header 2
-### Header 3
+        #img-caption {
+            text-align: center;
+            font-family: cursive;
+            font-style: italic;
 
-- Bulleted
-- List
+        }
 
-1. Numbered
-2. List
+        #tribute-info {
+            background-color: rgb(235, 235, 235);
 
-**Bold** and _Italic_ and `Code` text
+        }
 
-[Link](url) and ![Image](src)
-```
+        h3 {
+            text-align: center;
+            /* margin: 0px 10px; */
+            padding: 5px 5px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 24px;
+        }
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+        p {
+            margin-left: 25px;
+            margin-right: 25px;
+            font-size: large;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+            font-weight: 900;
+            line-height: 150%;
+        }
+        p#footer{
+            padding: 25px 25px;
+            text-align: center;
+            font-family: cursive;
+            background-color: rgb(238, 238, 238);
+            font-style: oblique;
+            font-weight: 700;
 
-### Jekyll Themes
+        }
+        a{
+            text-align: center;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: cornflowerblue;
+            border: 1px solid cornflowerblue;
+            border-radius: 10px;
+            color: crimson;
+        }
+        a:visited{
+            color: darkgrey;
+        }
+        
+        #created{
+            font-family: fantasy;
+            font-style: normal;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/samWfelice/samwfelice.tribute-webpage.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+</head>
 
-### Support or Contact
+<body>
+    <div id="main">
+        <header>
+            <h1 id="title">Elon Musk</h1>
+            <blockquote cite="https://www.brainyquote.com/quotes/elon_musk_567293">"Life is too short for long-term
+                grudges." <cite>-Elon Musk</cite></blockquote>
+        </header>
+        <figure id="img-div">
+            <img src="IMG/SPACE x.jpg" alt="" id="image">
+            <figcaption id="img-caption">Elon Musk on his way to Mars!</figcaption>
+        </figure>
+        <article id="tribute-info">
+            <section class="intro">
+                <h3 class="bioh3">Biography</h3>
+                <p class="elonInfo">Elon Musk, (born June 28, 1971, Pretoria, South Africa), South African-born American
+                    entrepreneur who cofounded the electronic-payment firm PayPal and formed SpaceX, maker of launch
+                    vehicles and spacecraft.</p>
+                <p class="moreInfo">Musk was born to a Canadian mother and South African father, and raised in Pretoria,
+                    South Africa. He briefly attended the University of Pretoria before moving to Canada at age 17 to
+                    avoid conscription. He was enrolled at Queen's University and transferred to the University of
+                    Pennsylvania two years later, where he received a bachelor's degree in economics and physics, then
+                    moved to California in 1995 to attend Stanford University but decided instead to pursue a business
+                    career, co-founding the web software company Zip2 with his brother Kimbal. The startup was acquired
+                    by Compaq for $307 million in 1999. The same year, Musk co-founded online bank X.com, which merged
+                    with Confinity in 2000 to form PayPal. The company was bought by eBay in 2002 for $1.5 billion.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+                    In 2002, Musk founded SpaceX, an aerospace manufacturer and space transport services company, of
+                    which he is CEO and CTO. In 2004, he joined electric vehicle manufacturer Tesla Motors, Inc. (now
+                    Tesla, Inc.) as chairman and product architect, becoming its CEO in 2008. In 2006, he helped create
+                    SolarCity, a solar energy services company that was later acquired by Tesla and became Tesla Energy.
+                    In 2015, he co-founded OpenAI, a nonprofit research company that promotes friendly artificial
+                    intelligence. In 2016, he co-founded Neuralink, a neurotechnology company focused on developing
+                    brain–computer interfaces, and founded The Boring Company, a tunnel construction company. Musk has
+                    proposed the Hyperloop, a high-speed vactrain transportation system.</p>
+            </section>
+            <section class="intro">
+                <h3 class="vision">Tribute to Musk!</h3>
+                <p>
+                    Musk’s early interests in philosophy, science fiction, and fantasy novels are reflected in his sense
+                    of idealism and concern with human progress—and in his business career. He works in the areas that
+                    he has identified as crucial to our future, specifically the Internet, the transition to renewable
+                    energy sources, and space colonization. He has defied critics, disrupted industries, and made
+                    advances in all three of these frontiers, via his creation of PayPal, Tesla Motors, SolarCity, and
+                    SpaceX—game-changers all, despite their sometimes rocky performance.
+                </p>
+                <p>
+                    Elon Musk has a great vision for the future, perhaps the most unique one someone ever might have
+                    come up with. He knows what his doing. He's like an example of real-life Bruce Wayne.
+                </p>
+
+
+            </section>
+
+        </article>
+        <p id="footer">Click here to know More About
+            <a href="https://en.wikipedia.org/wiki/Elon_Musk" id="tribute-link" target="_blank"> Elon Musk.</a> Don't be shy ;)
+        </p>
+
+    </div>
+    <footer>
+        <p id="created">Created by Alier & Sam &copy; 2022</p>
+    </footer>
+
+</body>
+
+</html>
